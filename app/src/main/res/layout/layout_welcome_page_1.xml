@@ -4,13 +4,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center"
+    android:background="@drawable/shareitback"
     android:orientation="vertical">
 
     <ImageView
         android:id="@+id/layout_welcome_page_1_splash_image"
         android:layout_width="128dp"
         android:layout_height="128dp"
-        app:srcCompat="@drawable/ic_trebleshot_original_white_128dp"
         app:tint="?colorSecondary" />
 
     <LinearLayout

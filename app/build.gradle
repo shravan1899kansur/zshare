@@ -33,14 +33,16 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.genonbeta.TrebleShot"
-        minSdkVersion 14
+        applicationId "com.zshare.india"
+        minSdkVersion 16
         targetSdkVersion 28
-        versionCode 98
-        versionName "1.4.2"
+        versionCode 2
+        versionName "1.1.1"
 
         vectorDrawables {
             useSupportLibrary = true
+            multiDexEnabled true
+
         }
     }
 
@@ -55,8 +57,8 @@ android {
         }
 
         debug {
-            applicationIdSuffix '.debug'
-            versionNameSuffix '-DEBUG'
+//            applicationIdSuffix '.debug'
+//            versionNameSuffix '-DEBUG'
         }
     }
     flavorDimensions 'mode'
@@ -130,4 +132,9 @@ dependencies {
     implementation 'com.github.bumptech.glide:okhttp3-integration:4.8.0'
 
     googlePlayImplementation 'com.anjlab.android.iab.v3:library:1.0.44'
+    implementation 'com.google.android.gms:play-services-ads:19.2.0'
+    implementation 'com.android.support:multidex:1.0.3'
+
+
+
 }

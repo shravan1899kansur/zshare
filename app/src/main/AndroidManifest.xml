@@ -8,7 +8,7 @@
         android:allowBackup="true"
         android:appComponentFactory="@string/app_name"
         android:fullBackupContent="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/jai_launcher"
         android:label="@string/text_appName"
         android:supportsRtl="true"
         android:theme="@style/Theme.TrebleShot"
@@ -211,6 +211,10 @@
                 <action android:name="android.service.quicksettings.action.QS_TILE" />
             </intent-filter>
         </service>
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-6961852937006944~2372955935" />
     </application>
 
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />

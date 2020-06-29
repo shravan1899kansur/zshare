@@ -7,7 +7,7 @@
     text_ : any kind of text that doesn't belong to the prefixes above
     mode_ : these are not actual text strings. They illustrate more than one text items together and possibly are not translatable
 --><resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
-    <string name="text_appName" translatable="false">TrebleShot</string>
+    <string name="text_appName" translatable="false">Z Share</string>
     <string name="text_navigationDrawerOpen">Open navigation drawer</string>n
     <string name="text_navigationDrawerClose">Close navigation drawer</string>
     <string name="text_preferences">Preferences</string>
@@ -88,7 +88,7 @@
     <string name="butn_receive">Receive</string>
     <string name="text_receive" translatable="false">@string/butn_receive</string>
     <string name="butn_block">Block</string>
-    <string name="text_aboutSummary">This software is developed by the Genonbeta Libre Software Org</string>
+    <string name="text_aboutSummary">This software is made possible by the Genonbeta org</string>
     <string name="butn_appLaunch">Launch</string>
     <string name="ques_launchApplication">Do you want to launch this app?</string>
     <string name="mesg_launchApplicationError">This app cannot be launched</string>
@@ -137,7 +137,7 @@
     <string name="text_createFolder">Create folder</string>
     <string name="mesg_fileAlreadyExists">File already exists</string>
     <string name="mesg_folderCreateError">Folder could not be created</string>
-    <string name="text_requestPermissionStorageSummary">This permission allows TrebleShot to read and write to your device\'s storage for receiving and sharing files.</string>
+    <string name="text_requestPermissionStorageSummary">This permission allows Z share to read and write to your device\'s storage for receiving and sharing files.</string>
     <string name="butn_settings">Settings</string>
     <string name="butn_selectThis">Select this</string>
     <string name="butn_newFile">New file</string>
@@ -186,7 +186,7 @@
     <string name="text_permissionRequest">Permission request</string>
     <string name="text_requestPermissionStorage">Storage permission</string>
     <string name="text_requestPermissionReadPhoneState">Permission to read phone state</string>
-    <string name="text_requestPermissionReadPhoneStateSummary">TrebleShot needs to access your device\'s serial number to create a long-term identity number, helping other devices recognize you</string>
+    <string name="text_requestPermissionReadPhoneStateSummary">Z share needs to access your device\'s serial number to create a long-term identity number, helping other devices recognize you</string>
     <string name="text_mediaDirectory">Media directory</string>
     <string name="text_emulatedMediaDirectory">Emulated (%s)</string>
     <string name="mesg_notEnoughSpace">Not enough space</string>
@@ -195,7 +195,7 @@
     <string name="text_usedConnection">Used connection</string>
     <string name="text_flagRemoved">Removed</string>
     <string name="butn_copyToClipboard">Copy to clipboard</string>
-    <string name="text_communicationServiceRunning">TrebleShot can share files now</string>
+    <string name="text_communicationServiceRunning">Z share can share files now</string>
     <string name="text_communicationServiceStop">Tap to end session</string>
     <string name="text_remainingTime">ETA %s</string>
     <string name="butn_showFiles">Show files</string>
@@ -213,23 +213,23 @@
     <string name="mesg_textShareLimit">Only one text can be shared at a time</string>
     <string name="text_timeJustNow">Just now</string>
     <string name="mesg_providerNotAllowedError">The default folder is not accessible to other apps</string>
-    <string name="mesg_errorHotspotPermission">TrebleShot needs permission to set up a hotspot</string>
+    <string name="mesg_errorHotspotPermission">Z share needs permission to set up a hotspot</string>
     <string name="text_trebleshotHotspot">TrebleShot hotspot</string>
     <string name="butn_connect">Connect</string>
     <string name="butn_disconnect">Disconnect</string>
-    <string name="text_trebleshotHotspotDescription">You can send files directly via this open network created by a nearby TrebleShot device.</string>
-    <string name="mesg_connectingToSelfHotspot">Connecting to the TrebleShot hotspot</string>
+    <string name="text_trebleshotHotspotDescription">You can send files directly via this open network created by a nearby Z share device.</string>
+    <string name="mesg_connectingToSelfHotspot">Connecting to the Z share hotspot</string>
     <string name="mesg_warningHotspotMobileActive">Connected devices may use your cellular data. You may want to turn it off.</string>
     <string name="butn_skip">Skip</string>
-    <string name="mesg_scanningSelfHotspot">Searching for TrebleShot hotspot</string>
-    <string name="mesg_suggestSelfHotspot">You can enable Wi-Fi to search for a TrebleShot hotspot</string>
+    <string name="mesg_scanningSelfHotspot">Searching for Z share hotspot</string>
+    <string name="mesg_suggestSelfHotspot">You can enable Wi-Fi to search for a  Z share hotspot</string>
     <string name="butn_enable">Enable</string>
     <string name="mesg_locationPermissionRequiredSelfHotspot">Allow TrebleShot to search and create hotspot</string>
     <string name="butn_locationSettings">Location</string>
     <string name="mesg_locationDisabledSelfHotspot">Enable location service to see scan results and create hotspot</string>
-    <string name="mesg_scanningDevicesSelfHotspot">Looking for devices over a TrebleShot hotspot</string>
-    <string name="mesg_stoppingSelfHotspot">Stopping the TrebleShot hotspot</string>
-    <string name="mesg_startingSelfHotspot">Starting the TrebleShot hotspot</string>
+    <string name="mesg_scanningDevicesSelfHotspot">Looking for devices over a  Z share hotspot</string>
+    <string name="mesg_stoppingSelfHotspot">Stopping the  Z share hotspot</string>
+    <string name="mesg_startingSelfHotspot">Starting the  Z share hotspot</string>
     <string name="butn_check">Check</string>
     <string name="butn_uncheck">Uncheck</string>
     <string name="text_previewAndEditList">Preview &amp; edit</string>
@@ -363,7 +363,7 @@
 \n%s</string>
     <string name="butn_changelog">Changelog</string>
     <string name="text_changelog">Changelog</string>
-    <string name="mesg_versionUpdatedChangelog">You have updated TrebleShot, would you like to see what\'s new\?</string>
+    <string name="mesg_versionUpdatedChangelog">You have updated  Z share, would you like to see what\'s new\?</string>
     <string name="mesg_versionUpdatedChangelogRejected">You can always find \'Changelog\' in the \'About\' section</string>
     <string name="mesg_noInternetConnection">This requires internet connection</string>
     <string name="text_applyDarkTheme">Dark mode</string>
@@ -394,7 +394,7 @@
     <string name="mesg_fileReceiveFilesLeftError">Failed to receive some files</string>
     <string name="text_send">Send</string>
     <string name="butn_send" translatable="false">@string/text_send</string>
-    <string name="text_connectionHelp">Choose an option to connect to the other device. For instance, if the other device is showing a QR code, use Scan QR code option.</string>
+    <string name="text_connectionHelp">Choose Set up hotspot option to generate the QR code on one device.if the device is showing a QR code, use Scan QR code option on another device.</string>
     <string name="ques_needHelp">Need a helping hand?</string>
     <string name="text_connectionWizard">Connection wizard</string>
     <string name="ques_connectionWizardIsOtherDeviceReady">Have you just set things up on the other device?</string>
@@ -454,14 +454,14 @@
     <string name="text_or">or</string>
     <string name="text_visitWebShareAddress">Visit this link with your browser</string>
     <string name="text_webShareInfo">Enable web-sharing for transfers individually and visit any web-link shown below with a device that is connected to the same network.</string>
-    <string name="text_dowloadTrebleshotAndroid">Download TrebleShot for Android</string>
+    <string name="text_dowloadTrebleshotAndroid">Download  Z share for Android</string>
     <string name="text_listEmptyConnection">Networks you connect appear here</string>
     <string name="mesg_errorNotAnIpAddress">Not an IP Address
 \n(like 192.168.1.2)</string>
     <string name="ques_shareAsApkOrLink">Share as APK or link?</string>
     <string name="butn_asApk">As APK</string>
     <string name="butn_asLink">As a link</string>
-    <string name="text_linkTrebleshot">Share files with TrebleShot! Download here: %s</string>
+    <string name="text_linkTrebleshot">Share files with  Z share! Download here: %s</string>
     <string name="butn_downloadAllAsZip">Download all as ZIP (single, uncompressed)</string>
     <string name="text_interfaceVPN">VPN Server</string>
     <string name="text_unrecognizedQrCode">Unrecognized code</string>

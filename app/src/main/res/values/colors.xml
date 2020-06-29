@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Launcher related -->
-    <color name="ic_launcher_background">#47BF4B</color>
+    <color name="ic_launcher_background">#323EAA</color>
     <!-- Launcher related end -->
 
     <color name="colorControlNormal">#222</color>
@@ -11,7 +11,7 @@
     <color name="colorPrimary">#ffffff</color>
     <color name="colorPrimaryDark">#ccc</color>
     <color name="colorPrimaryDark23">#ffffffff</color>
-    <color name="colorSecondary">#66bb6a</color>
+    <color name="colorSecondary">#323EAA</color>
     <color name="colorSurface">#fefefe</color>
     <color name="windowBackground">#ffffff</color>
     <!-- local coloring-->

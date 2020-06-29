@@ -19,7 +19,6 @@ import com.genonbeta.TrebleShot.R;
 import com.genonbeta.TrebleShot.activity.ConnectionManagerActivity;
 import com.genonbeta.TrebleShot.activity.ContentSharingActivity;
 import com.genonbeta.TrebleShot.activity.ViewTransferActivity;
-import com.genonbeta.TrebleShot.activity.WebShareActivity;
 import com.genonbeta.TrebleShot.adapter.TransferGroupListAdapter;
 import com.genonbeta.TrebleShot.app.EditableListFragment;
 import com.genonbeta.TrebleShot.app.EditableListFragmentImpl;
@@ -35,6 +34,11 @@ import com.genonbeta.android.framework.widget.PowerfulActionMode;
 
 import java.util.ArrayList;
 import java.util.Map;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.MobileAds;
+import com.google.android.gms.ads.initialization.InitializationStatus;
+import com.google.android.gms.ads.initialization.OnInitializationCompleteListener;
 
 /**
  * created by: Veli
@@ -70,7 +74,6 @@ public class TransferGroupListFragment
     public void onCreate(@Nullable Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
-
         setFilteringSupported(true);
         setDefaultOrderingCriteria(TransferGroupListAdapter.MODE_SORT_ORDER_DESCENDING);
         setDefaultSortingCriteria(TransferGroupListAdapter.MODE_SORT_BY_DATE);
@@ -83,11 +86,13 @@ public class TransferGroupListFragment
 
     @Override
     protected RecyclerView onListView(View mainContainer, ViewGroup listViewContainer)
+
     {
         View adaptedView = getLayoutInflater().inflate(R.layout.layout_transfer_group_list, null, false);
         ((ViewGroup) mainContainer).addView(adaptedView);
 
         return super.onListView(mainContainer, (FrameLayout) adaptedView.findViewById(R.id.fragmentContainer));
+
     }
 
     @Override
@@ -120,6 +125,8 @@ public class TransferGroupListFragment
                         .putExtra(ConnectionManagerActivity.EXTRA_REQUEST_TYPE, ConnectionManagerActivity.RequestType.MAKE_ACQUAINTANCE.toString()));
             }
         });
+
+
     }
 
     @Override

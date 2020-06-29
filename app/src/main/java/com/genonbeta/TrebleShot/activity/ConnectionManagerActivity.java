@@ -401,23 +401,23 @@ public class ConnectionManagerActivity
                         case R.id.connection_option_hotspot:
                             updateFragment(AvailableFragment.CreateHotspot);
                             break;
-                        case R.id.connection_option_network:
-                            updateFragment(AvailableFragment.UseExistingNetwork);
-                            break;
-                        case R.id.connection_option_manual_ip:
-                            updateFragment(AvailableFragment.EnterIpAddress);
-                            break;
+//                        case R.id.connection_option_network:
+//                            updateFragment(AvailableFragment.UseExistingNetwork);
+//                            break;
+//                        case R.id.connection_option_manual_ip:
+//                            updateFragment(AvailableFragment.EnterIpAddress);
+//                            break;
                         case R.id.connection_option_scan:
                             startCodeScanner();
                     }
                 }
             };
 
-            view.findViewById(R.id.connection_option_devices).setOnClickListener(listener);
+//            view.findViewById(R.id.connection_option_devices).setOnClickListener(listener);
             view.findViewById(R.id.connection_option_hotspot).setOnClickListener(listener);
-            view.findViewById(R.id.connection_option_network).setOnClickListener(listener);
+//            view.findViewById(R.id.connection_option_network).setOnClickListener(listener);
             view.findViewById(R.id.connection_option_scan).setOnClickListener(listener);
-            view.findViewById(R.id.connection_option_manual_ip).setOnClickListener(listener);
+//            view.findViewById(R.id.connection_option_manual_ip).setOnClickListener(listener);
 
             view.findViewById(R.id.connection_option_guide).setOnClickListener(new View.OnClickListener()
             {

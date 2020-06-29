@@ -11,7 +11,6 @@
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/ic_genonbeta_white_24dp_static"
         app:tint="?colorPassive" />
 
 </LinearLayout>
